@@ -16,8 +16,8 @@ buttonQr.addEventListener("click",()=>{
     }
     else{
 
-        imageQr.src=`https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=${inputValue}&choe=UTF-8`;
-        // imageQr.src=`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=job${inputValue}`;
+        // imageQr.src=`https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=${inputValue}&choe=UTF-8`;
+        imageQr.src=`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=job${inputValue}`;
 
         imageQr.alt=`${inputValue}`;
     }
